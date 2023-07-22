@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    background-color: white;
+    
+}
+.card{
+    min-height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+.card:hover{
+    border: 1px solid white;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
+}
+.card-icon i{
+    color: grey;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+.span{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+
+.title{
+    text-align: center;
+    background-color: gold;
+}
+
+
+
+
+
+
+
+
